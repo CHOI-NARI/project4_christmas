@@ -1,0 +1,25 @@
+nav {
+  width: 100vw;
+  height: 100px;
+}
+
+.navContainer {
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBox {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}

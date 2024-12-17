@@ -1,0 +1,24 @@
+.anything {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden; /* 사진들이 브라우저를 넘어가지 않게 */
+}
+
+.anythingContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.anythingBox {
+  flex: 0 0 100%; /* 각 박스가 100%의 너비를 차지 */
+  width: 500px; /* 각 박스의 너비 */
+  height: 500px;
+  display: flex;
+  margin: auto 0;
+}
+.imgAnything {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

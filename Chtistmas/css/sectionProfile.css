@@ -1,0 +1,39 @@
+.profile {
+  width: 100vw;
+  height: 100vh;
+}
+
+.profileContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.profileVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+.profileBox {
+  position: relative;
+  z-index: 2;
+  width: 900px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCard {
+  position: absolute;
+  top: 0;
+  color: white;
+  font-size: 150px;
+  font-weight: bold;
+  opacity: 0;
+}
